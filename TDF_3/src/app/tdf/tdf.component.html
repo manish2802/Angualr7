@@ -1,0 +1,30 @@
+{{user | json}}
+<div class="jumbotron">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-2">
+      <div>
+        <form  (ngSubmit)="submit()">
+
+          <div class="form-group">
+            <label>Name:</label>
+            <input class="form-control" type="text" name="name" [(ngModel)]="user.name" placeholder="Enter the name...." />
+
+          </div>
+          <div class="form-group">
+            <label>Mobile No:</label>
+            <input class="form-control" type="text" name="mobileno" [(ngModel)]="user.mobileno"/>
+          </div>
+
+          <div class="form-group">
+            <label>Mail Id</label>
+            <input class="form-control" type="text" name="mailId" [(ngModel)] ="user.mailId"/>
+          </div>
+          <input type="submit" name="Submit" />
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
