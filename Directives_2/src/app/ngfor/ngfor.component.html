@@ -1,0 +1,10 @@
+<p>
+  ngfor works!
+</p>
+
+ <h2>My Heroes</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <span class="badge">{{hero.id }}</span><span>{{hero.name | uppercase}}</span> <span><button>Add</button></span>
+  </li>
+</ul>
