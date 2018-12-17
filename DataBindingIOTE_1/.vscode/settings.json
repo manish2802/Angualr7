@@ -1,0 +1,7 @@
+{
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.alwaysSignOff": true,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "editor.hideCursorInOverviewRuler": true
+}
